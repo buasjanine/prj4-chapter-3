@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{	color: red;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+	normal; 
+}
+
+.my-class{
+    color: brown;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+    font-size: 16px;
+}
+
+#my-id{
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 12px;
+    color: coral;
+}
+
+#lorem {text-align: center;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 14px;
+		color: black;
+		
+}
+
+.my-container{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    border: 10px dotted #FF0004;
+    background-color: cornflowerblue;
+    margin-right: 3px;
+}
+
