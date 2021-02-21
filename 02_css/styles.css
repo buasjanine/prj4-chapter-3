@@ -1,39 +1,112 @@
 @charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
 /* CSS Document */
 
-p{	color: red;
+.names{
+	color: #FF0004;
+	font-family: 'Bebas Neue', cursive;
 	font-size: 12px;
 }
 
 .my-class{
-    color: brown;
+    color: #D0FFC2;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #my-id{
     text-align: left;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-    font-size: 12px;
-    color: coral;
+    font-size: 18px;
+    color: black;
 }
 
-#lorem {text-align: center;
-		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+#lorem {text-align: left;
 		font-size: 14px;
 		color: black;
 		
 }
 
-.my-container{
-    padding-top: 10px;
+.myfooter{
+    border: 10px;
+	border-style: double;
+	border-color: black;
+	background-color: #3C6440;
+	width: 100%;
+	height: 104px;
+	padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-    border: 10px dotted #FF0004;
-    background-color: cornflowerblue;
-    margin-right: 3px;
+	padding-bottom: 20px;
+}
+
+
+body {
+	background-image: url("../01_images/pexels-sohail-na-807598.jpg");
+	background-size: cover;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	text-align: justify;
+	font-size:12pt;
+	color: red;
+}
+
+.mybut {
+    background-color: #D5DCDE;
+    width: 120px;
+    height: 58px;
+    border-radius: 14px;
+    font-size: 12pt;
+	font-family: 'Bebas Neue', cursive;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gotitfont{
+	text-decoration: none;
+	color:#151E20;
+}
+
+.mybut:hover {
+	background-color:#797970;
+}
+
+nav {
+	display:flex;
+	flex-direction: row;
+}
+
+.myfont {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+}
+
+.myheader {
+	background-color: #FFFED9;
+	background-image:url("../01_images/pexels-avonne-stalling-4538783 copy.jpg");
+	background-size:cover;
+	width: 100%;
+	height: 244px;
+	padding-bottom: 20px;
+}
+
+.mycontent {
+	background-color: #FFFFFF;
+	width: 876px;
+	height: 990px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.cameraholding {
+	float: left;
+	padding-right: 12px;
 }
 
