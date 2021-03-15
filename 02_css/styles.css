@@ -98,7 +98,7 @@ nav {
 .mycontent {
 	background-color: #FFFFFF;
 	width: 876px;
-	height: 990px;
+	height: 1050px;
 	margin-left:auto;
 	margin-right:auto;
 	padding-left: 12px;
@@ -110,3 +110,15 @@ nav {
 	padding-right: 12px;
 }
 
+.container {
+	background-color:antiquewhite;
+	padding: 10px;
+	width: 876px;
+	margin:auto;
+}
+
+.align{
+	align:center;
+	margin:auto;
+
+}
